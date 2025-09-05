@@ -142,7 +142,7 @@ async def process_pending_command(chat_id, delay):
 async def skip_to_next_song(chat_id, message):
     """Skips to the next song in the queue and starts playback."""
     if chat_id not in chat_containers or not chat_containers[chat_id]:
-        await message.edit("❌ No more songs in the queue.")
+        await message.edit("🎵Write /play and listen ad less music 🎶.")
         await leave_voice_chat(chat_id)
         return
 
