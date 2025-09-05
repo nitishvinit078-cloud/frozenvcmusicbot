@@ -559,7 +559,7 @@ async def play_handler(_, message: Message):
 
     # If replying to an audio/video message, handle local playback
     if message.reply_to_message and (message.reply_to_message.audio or message.reply_to_message.video):
-        processing_message = await message.reply("❄️")
+        processing_message = await message.reply("🔍")
 
         # Fetch fresh media reference and download
         orig = message.reply_to_message
