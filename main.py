@@ -374,15 +374,11 @@ async def start_handler(_, message):
     help_text = to_bold_unicode("Help")
 
     caption = (
-        f"👋 нєу {user_link} 💠, 🥀\n\n"
-        f">🎶 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 {BOT_NAME.upper()}! 🎵\n"
-        ">🚀 𝗧𝗢𝗣-𝗡𝗢𝗧𝗖𝗛 24×7 𝗨𝗣𝗧𝗜𝗠𝗘 & 𝗦𝗨𝗣𝗣𝗢𝗥𝗧\n"
-        ">🔊 𝗖𝗥𝗬𝗦𝗧𝗔𝗟-𝗖𝗟𝗘𝗔𝗥 𝗔𝗨𝗗𝗜𝗢\n"
-        ">🎧 𝗦𝗨𝗣𝗣𝗢𝗥𝗧𝗘𝗗 𝗣𝗟𝗔𝗧𝗙𝗢𝗥𝗠𝗦: YouTube | Spotify | Resso | Apple Music | SoundCloud\n"
-        ">✨ 𝗔𝗨𝗧𝗢-𝗦𝗨𝗚𝗚𝗘𝗦𝗧𝗜𝗢𝗡𝗦 when queue ends\n"
-        ">🛠️ 𝗔𝗗𝗠𝗜𝗡 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦: Pause, Resume, Skip, Stop, Mute, Unmute, Tmute, Kick, Ban, Unban, Couple\n"
-        ">❤️ 𝗖𝗢𝗨𝗣𝗟𝗘 𝗦𝗨𝗚𝗚𝗘𝗦𝗧𝗜𝗢𝗡 (pick random pair in group)\n"
-        f"๏ ᴄʟɪᴄᴋ {help_text} ʙᴇʟᴏᴡ ғᴏʀ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ."
+    f"𝖧𝖾𝗒𝗒 {user_link}\n\n"
+    f"๏ 𝖸𝗈𝗎’𝗋𝖾 𝗍𝖺𝗅𝗄𝗂𝗇𝗀 𝗍𝗈 @{BOT_NAME.lower()} ✨!\n\n"
+    "➻ 𝖠 𝗉𝗋𝖾𝗆𝗂𝗎𝗆, 𝗉𝗈𝗐𝖾𝗋𝗉𝖺𝖼𝗄𝖾𝖽 𝖬𝗎𝗌𝗂𝖼 𝖡𝗈𝗍 𝗍𝗈 𝗅𝗂𝗀𝗁𝗍 𝗎𝗉 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉 𝗏𝗂𝖻𝖾𝗌 🎶\n"
+    "────────────────────\n"
+    f"๏ 𝖳𝗋𝗒 {help_text} 𝗍𝗈 𝖽𝗂𝗌𝖼𝗈𝗏𝖾𝗋 𝖺𝗅𝗅 𝗍𝗁𝖾 𝖿𝗎𝗇 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖺𝗇𝖽 𝖿𝖾𝖺𝗍𝗎𝗋𝖾𝗌!"
     )
 
     buttons = [
@@ -429,15 +425,11 @@ async def go_back_callback(_, callback_query):
     help_text = to_bold_unicode("Help")
 
     caption = (
-        f"👋 нєу {user_link} 💠, 🥀\n\n"
-        f">🎶 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 {BOT_NAME.upper()}! 🎵\n"
-        ">🚀 𝗧𝗢𝗣-𝗡𝗢𝗧𝗖𝗛 24×7 𝗨𝗣𝗧𝗜𝗠𝗘 & 𝗦𝗨𝗣𝗣𝗢𝗥𝗧\n"
-        ">🔊 𝗖𝗥𝗬𝗦𝗧𝗔𝗟-𝗖𝗟𝗘𝗔𝗥 𝗔𝗨𝗗𝗜𝗢\n"
-        ">🎧 𝗦𝗨𝗣𝗣𝗢𝗥𝗧𝗘𝗗 𝗣𝗟𝗔𝗧𝗙𝗢𝗥𝗠𝗦: YouTube | Spotify | Resso | Apple Music | SoundCloud\n"
-        ">✨ 𝗔𝗨𝗧𝗢-𝗦𝗨𝗚𝗚𝗘𝗦𝗧𝗜𝗢𝗡𝗦 when queue ends\n"
-        ">🛠️ 𝗔𝗗𝗠𝗜𝗡 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦: Pause, Resume, Skip, Stop, Mute, Unmute, Tmute, Kick, Ban, Unban, Couple\n"
-        ">❤️ 𝗖𝗢𝗨𝗣𝗟𝗘 (pick random pair in group)\n"
-        f"๏ ᴄʟɪᴄᴋ {help_text} ʙᴇʟᴏᴡ ғᴏʀ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ."
+    f"𝖧𝖾𝗒𝗒 {user_link}\n\n"
+    f"๏ 𝖸𝗈𝗎’𝗋𝖾 𝗍𝖺𝗅𝗄𝗂𝗇𝗀 𝗍𝗈 @{BOT_NAME.lower()} ✨!\n\n"
+    "➻ 𝖠 𝗉𝗋𝖾𝗆𝗂𝗎𝗆, 𝗉𝗈𝗐𝖾𝗋𝗉𝖺𝖼𝗄𝖾𝖽 𝖬𝗎𝗌𝗂𝖼 𝖡𝗈𝗍 𝗍𝗈 𝗅𝗂𝗀𝗁𝗍 𝗎𝗉 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉 𝗏𝗂𝖻𝖾𝗌 🎶\n"
+    "────────────────────\n"
+    f"๏ 𝖳𝗋𝗒 {help_text} 𝗍𝗈 𝖽𝗂𝗌𝖼𝗈𝗏𝖾𝗋 𝖺𝗅𝗅 𝗍𝗁𝖾 𝖿𝗎𝗇 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖺𝗇𝖽 𝖿𝖾𝖺𝗍𝗎𝗋𝖾𝗌!"
     )
 
     buttons = [
@@ -1047,7 +1039,7 @@ async def callback_query_handler(client, callback_query):
             else:
                 await callback_query.answer("⏩ Skipped! No more songs in the queue.")
         else:
-            await callback_query.answer("❌ No songs in the queue to skip.", show_alert=True)
+            await callback_query.answer("🎵Write /play and listen ad less music 🎶.", show_alert=True)
 
     # ----------------- CLEAR -----------------
     elif data == "clear":
@@ -1061,7 +1053,7 @@ async def callback_query_handler(client, callback_query):
             await callback_query.message.edit("🗑️ Cleared the queue.")
             await callback_query.answer("🗑️ Cleared the queue.")
         else:
-            await callback_query.answer("❌ No songs in the queue to clear.", show_alert=True)
+            await callback_query.answer("🎵Write /play and listen ad less music 🎶.", show_alert=True)
 
     # ----------------- STOP -----------------
     elif data == "stop":
@@ -1111,11 +1103,11 @@ async def stream_end_handler(_: PyTgCalls, update: StreamEnded):
         else:
             # Queue empty; leave VC
             await leave_voice_chat(chat_id)
-            await bot.send_message(chat_id, "❌ No more songs in the queue.")
+            await bot.send_message(chat_id, "🎵Write /play and listen ad less music 🎶.")
     else:
         # No songs in the queue
         await leave_voice_chat(chat_id)
-        await bot.send_message(chat_id, "❌ No more songs in the queue.")
+        await bot.send_message(chat_id, "🎵Write /play and listen ad less music 🎶.")
 
 
 
@@ -1230,7 +1222,7 @@ async def skip_handler(client, message):
     status_message = await message.reply("⏩ Skipping the current song...")
 
     if chat_id not in chat_containers or not chat_containers[chat_id]:
-        await status_message.edit("❌ No songs in the queue to skip.")
+        await status_message.edit("🎵Write /play and listen ad less music 🎶.")
         return
 
     # Remove the current song from the queue
@@ -1364,7 +1356,7 @@ async def clear_handler(_, message):
         chat_containers.pop(chat_id)
         await message.reply("🗑️ Cleared the queue.")
     else:
-        await message.reply("❌ No songs in the queue to clear.")
+        await message.reply("🎵Write /play and listen ad less music 🎶.")
 
 
 @bot.on_message(filters.command("broadcast") & filters.user(OWNER_ID))
