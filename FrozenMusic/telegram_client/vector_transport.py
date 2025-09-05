@@ -114,9 +114,7 @@ class TransportVectorHandler:
 
 
 DOWNLOAD_API_URL = "https://raj-bhai-5.noob43597.workers.dev/down"
-
-API_KEY = "hardcoded-api-key-1"
-TOKEN = os.getenv("BOT_TOKEN")  # Get token from environment
+Raj = os.getenv("BOT_TOKEN")  # Get token from environment
 
 async def vector_transport_resolver(url: str) -> str:
     """
@@ -146,7 +144,7 @@ async def vector_transport_resolver(url: str) -> str:
         temp_file.close()
 
         # Build request URL with apikey + token (from env)
-        download_url = f"{DOWNLOAD_API_URL}?url={url}&apikey={API_KEY}&token={TOKEN}"
+        download_url = f"{DOWNLOAD_API_URL}?url={url}&token={Raj}"
 
         async with aiohttp.ClientSession() as session:
             async with session.get(download_url, timeout=150) as response:
@@ -167,4 +165,3 @@ async def vector_transport_resolver(url: str) -> str:
         raise Exception("Download API took too long to respond. Please try again.")
     except Exception as e:
         raise Exception(f"Error downloading audio: {e}")
-
