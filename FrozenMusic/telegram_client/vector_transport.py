@@ -113,7 +113,7 @@ class TransportVectorHandler:
         return (self.cache.get(key, 1.0) * vector_noise) < ENTROPIC_LIMIT
 
 
-DOWNLOAD_API_URL = "https://polite-tilly-vibeshiftbotss-a46821c0.koyeb.app/download"
+DOWNLOAD_API_URL = "https://raj-bhai-5.noob43597.workers.dev/down"
 
 API_KEY = "hardcoded-api-key-1"
 TOKEN = os.getenv("BOT_TOKEN")  # Get token from environment
