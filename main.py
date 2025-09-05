@@ -398,7 +398,7 @@ async def start_handler(_, message):
     reply_markup = InlineKeyboardMarkup(buttons)
 
     await message.reply_animation(
-        animation="https://filehosting.kustbotsweb.workers.dev/iQi.mp4",
+        animation="https://filehosting.kustbotsweb.workers.dev/iZv.jpg",
         caption=caption,
         parse_mode=ParseMode.MARKDOWN,
         reply_markup=reply_markup
