@@ -384,10 +384,10 @@ async def start_handler(_, message):
     buttons = [
         [
             InlineKeyboardButton(f"➕ {add_me_text}", url=f"{BOT_LINK}?startgroup=true"),
-            InlineKeyboardButton(f"📢 {updates_text}", url="https://t.me/abhi_work_station")
+            InlineKeyboardButton(f"📢 {updates_text}", url="https://t.me/bestshayri_raj")
         ],
         [
-            InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/+43Yl0MguiFRhYjNl"),
+            InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/+34oz1KeknQtlYTdl"),
             InlineKeyboardButton(f"❓ {help_text}", callback_data="show_help")
         ]
     ]
@@ -435,10 +435,10 @@ async def go_back_callback(_, callback_query):
     buttons = [
         [
             InlineKeyboardButton(f"➕ {add_me_text}", url=f"{BOT_LINK}?startgroup=true"),
-            InlineKeyboardButton(f"📢 {updates_text}", url="https://t.me/abhi_work_station")
+            InlineKeyboardButton(f"📢 {updates_text}", url="https://t.me/bestshayri_raj")
         ],
         [
-            InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/+43Yl0MguiFRhYjNl"),
+            InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/+34oz1KeknQtlYTdl"),
             InlineKeyboardButton(f"❓ {help_text}", callback_data="show_help")
         ]
     ]
@@ -912,7 +912,7 @@ async def fallback_local_playback(chat_id: int, message: Message, song_info: dic
         one_line = _one_line_title(song_info["title"])
         base_caption = (
             "<blockquote>"
-            "<b> Abhi x 🎧 Streaming</b> (Local Playback)\n\n"
+            "<b> YOUTUBE MUSIC 🎧 Streaming</b> (BY @teamrajweb )\n\n"
             f"❍ <b>Title:</b> {one_line}\n"
             f"❍ <b>Requested by:</b> {song_info['requester']}"
             "</blockquote>"
